@@ -16778,11 +16778,10 @@
           "account": {
             "classeName": "account",
             "classeType": "resource",
-            "classParent": "default",
+            "name": "tx0004654f654er6t54er65t4e6",
             "token": {
               "classeName": "token",
               "classeType": "resource",
-              "classParent": "default",
               "ttl": 900,
               "value": " dfg456sdfsdf sfg4df56g4df65g4",
               "salt": "dgd5fgdfsfsdfsdf4g65d4fg 6"
@@ -16790,7 +16789,6 @@
             "accesstoken": {
               "classeName": "token",
               "classeType": "resource",
-              "classParent": "default",
               "ttl": 900,
               "value": " dfg456fqsdfdfg4df56g4df65g4",
               "salt": "dgd5fsdfsdfgdf4g65d4fg 6"
