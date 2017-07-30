@@ -162,7 +162,7 @@
     "saving": {
       "classeName": "saving",
       "classeType": "resource",
-      "classParent": "resource",
+      "classParent": "default",
       "amount": {},
       "amountStart": {}
     },
