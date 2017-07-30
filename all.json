@@ -477,8 +477,7 @@
     "result": {
       "msgs": [],
       "data": {
-        "refs": [
-          {
+        "refs":{"currency": {
             "classeName": "currency",
             "classeType": "history",
             "id": 0,
@@ -16773,7 +16772,7 @@
               }
             ]
           }
-        ],
+        },
         "context": {
           "account": {
             "classeName": "account",
