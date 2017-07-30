@@ -16619,8 +16619,6 @@
               "classeName": "token",
               "classeType": "Resource",
               "classParent": "default",
-              "id": 0,
-              "name": "dfghfghsdfsdffghdfh",
               "ttl": 900,
               "value": " dfg456sdfsdf sfg4df56g4df65g4",
               "salt": "dgd5fgdfsfsdfsdf4g65d4fg 6"
@@ -16629,8 +16627,6 @@
               "classeName": "token",
               "classeType": "Resource",
               "classParent": "default",
-              "id": 0,
-              "name": "dfghfghffsdfghdfh",
               "ttl": 900,
               "value": " dfg456fqsdfdfg4df56g4df65g4",
               "salt": "dgd5fsdfsdfgdf4g65d4fg 6"
@@ -16638,8 +16634,6 @@
             "keyService": {
               "classeName": "keyUser",
               "classeType": "Resource",
-              "id": 0,
-              "name": "ffghfdhfsdfsdfghdfgh",
               "key": "dfg5 4dfg6sdfsd f54 dgf65g ",
               "secret": "fgdfgdsdfsdf fgdf5g46dfg4"
             },
@@ -16652,8 +16646,6 @@
                 "keyUser": {
                   "classeName": "keyUser",
                   "classeType": "Resource",
-                  "id": 0,
-                  "name": "ffghfdhfghdfgh",
                   "key": "dfg5 4dfg654 dgf65g ",
                   "secret": "fgdfgdfgdf5g46dfg4"
                 },
@@ -16661,8 +16653,6 @@
                   "classeName": "token",
                   "classeType": "Resource",
                   "classParent": "default",
-                  "id": 0,
-                  "name": "dfghfghfghdfh",
                   "ttl": 900,
                   "value": " dfg456fg4df56g4df65g4",
                   "salt": "dgd5fgdf4g65d4fg 6"
@@ -16671,8 +16661,6 @@
                   "classeName": "tokenAccess",
                   "classeType": "Resource",
                   "classParent": "token",
-                  "id": 0,
-                  "name": "tyjtj616tjtyj",
                   "ttl": 900,
                   "value": "dfg6df4g65d4 6g54d6",
                   "salt": "gdfg 654fg65 4d"
@@ -16680,8 +16668,6 @@
                 "login": {
                   "classeName": "login",
                   "classeType": "Resource",
-                  "id": 0,
-                  "name": "tyjtyjt216jty",
                   "words": [
                     "Privacy",
                     "necessary",
@@ -16707,8 +16693,6 @@
           "historySaving": {
             "classeName": "saving",
             "classeType": "History",
-            "id": 0,
-            "name": "sdfsf45sfs5f65s4",
             "list": [
               {
                 "classeName": "saving",
@@ -16730,6 +16714,35 @@
                   "classeType": "Resource",
                   "name": "sdf546ssdf54df65s4df6",
                   "amount": 150.20,
+                  "date": 1501060680,
+                  "currency": {
+                    "classeName": "currency",
+                    "classeType": "Resource",
+                    "id": "euro"
+                  }
+                }
+              },
+
+              {
+                "classeName": "saving",
+                "classeType": "Resource",
+                "name": "sdf546s54dsfsff65s4df6",
+                "date": 1501435956,
+                "amount": {
+                  "classeName": "amount",
+                  "classeType": "Resource",
+                  "amount": 0.65240093,
+                  "currency": {
+                    "classeName": "currency",
+                    "classeType": "Resource",
+                    "id": "zcash"
+                  }
+                },
+                "amountStart": {
+                  "classeName": "amount",
+                  "classeType": "Resource",
+                  "name": "sdf546ssdf54dfsdfsdf65s4df6",
+                  "amount": 161.47,
                   "date": 1501060680,
                   "currency": {
                     "classeName": "currency",
