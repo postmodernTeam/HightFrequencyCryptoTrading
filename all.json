@@ -33,7 +33,7 @@
     "default": {
       "classParent": false,
       "classeName": "default",
-      "classeType": "Resource",
+      "classeType": "resource",
       "id": 0,
       "name": "",
       "date": 0,
@@ -46,34 +46,34 @@
     },
     "audit": {
       "classeName": "audit",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "default",
       "date": 0,
       "author": {}
     },
     "auditCreate": {
       "classeName": "auditCreate",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "audit"
     },
     "auditAdded": {
       "classeName": "auditAdded",
       "classParent": "auditAdded",
-      "classeType": "Resource"
+      "classeType": "resource"
     },
     "auditRemoved": {
       "classeName": "auditRemoved",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "audit"
     },
     "role": {
       "classeName": "role",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "default"
     },
     "token": {
       "classeName": "token",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "default",
       "ttl": 60,
       "value": "",
@@ -81,38 +81,38 @@
     },
     "tokenAccess": {
       "classeName": "tokenAccess",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "token"
     },
     "status": {
       "classeName": "status",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "default"
     },
     "key": {
       "classeName": "key",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "default",
       "key": "",
       "secret": ""
     },
     "keyUser": {
       "classeName": "keyUser",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "key",
       "key": "",
       "secret": ""
     },
     "keyService": {
       "classeName": "keyService",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "key",
       "key": "",
       "secret": ""
     },
     "account": {
       "classeName": "account",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "default",
       "login": {},
       "token": {},
@@ -122,7 +122,7 @@
     },
     "login": {
       "classeName": "login",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "default",
       "words": [],
       "value": "",
@@ -131,12 +131,12 @@
     },
     "accountUser": {
       "classeName": "accountUser",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "account"
     },
     "currency": {
       "classeName": "currency",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "default",
       "apiRateUrlGet": "",
       "symbol": "",
@@ -154,21 +154,21 @@
     },
     "amount": {
       "classeName": "amount",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "default",
       "amount": 0,
       "currency": {}
     },
     "saving": {
       "classeName": "saving",
-      "classeType": "Resource",
-      "classParent": "Resource",
+      "classeType": "resource",
+      "classParent": "resource",
       "amount": {},
       "amountStart": {}
     },
     "tradeUnlock ": {
       "classeName": "tradeUnlock",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "default",
       "ResourceSaving": {},
       "perWinedMin": 0,
@@ -179,14 +179,14 @@
     },
     "trade": {
       "classeName": "trade",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "default",
       "savingFrom": {},
       "savingTo": {}
     },
     "response": {
       "classeName": "response",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": false,
       "id": 0,
       "date": {},
@@ -199,20 +199,20 @@
     },
     "responseResult": {
       "classeName": "responseResult",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "default",
       "msgs": []
     },
     "responseResultData": {
       "classeName": "responseResultData",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": false,
       "refs": [],
       "context": {}
     },
     "responseResultMsg": {
       "classeName": "responseResultMsg",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": false,
       "id": 0,
       "date": 0,
@@ -224,7 +224,7 @@
     },
     "responseResultLink": {
       "classeName": "responseResultLink",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": false,
       "id": 0,
       "rel": "",
@@ -235,7 +235,7 @@
     },
     "param": {
       "classeName": "param",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": false,
       "id": 0,
       "key": "",
@@ -243,14 +243,14 @@
     },
     "responseLinkParam": {
       "classeName": "responseLinkParam",
-      "classeType": "Resource",
+      "classeType": "resource",
       "classParent": "param"
     }
   },
   "histories": {
     "default": {
       "classeName": "default",
-      "classeType": "History",
+      "classeType": "history",
       "classParent": false,
       "id": 0,
       "list": [],
@@ -258,68 +258,68 @@
     },
     "auditAdded": {
       "classeName": "auditAdded",
-      "classeType": "History",
+      "classeType": "history",
       "classParent": "audit"
     },
     "account": {
       "classeName": "account",
-      "classeType": "History",
+      "classeType": "history",
       "classParent": "default"
     },
     "accountUser": {
       "classeName": "accountUser",
-      "classeType": "History",
+      "classeType": "history",
       "classParent": "account"
     },
     "role": {
       "classeName": "role",
-      "classeType": "History",
+      "classeType": "history",
       "classParent": "default"
     },
     "trade": {
       "classeName": "trade",
-      "classeType": "History",
+      "classeType": "history",
       "classParent": "default"
     },
     "currency": {
       "classeName": "currency",
-      "classeType": "History",
-      "classParent": "History"
+      "classeType": "history",
+      "classParent": "history"
     },
     "saving": {
       "classeName": "saving",
-      "classeType": "History",
+      "classeType": "history",
       "classParent": "default"
     },
     "auditRemoved": {
       "classeName": "auditRemoved",
-      "classeType": "History",
+      "classeType": "history",
       "classParent": "audit"
     },
     "auditCreate": {
       "classeName": "auditCreate",
-      "classeType": "History",
+      "classeType": "history",
       "classParent": "audit"
     },
     "audit": {
       "classeName": "audit",
-      "classeType": "History",
+      "classeType": "history",
       "classParent": "default"
     }
   },
   "response": {
     "classeName": "response",
-    "classeType": "Resource",
+    "classeType": "resource",
     "classParent": false,
     "date": 1501060680,
     "from": [
       {
         "classeName": "account",
-        "classeType": "Resource",
+        "classeType": "resource",
         "classParent": "default",
         "token": {
           "classeName": "token",
-          "classeType": "Resource",
+          "classeType": "resource",
           "classParent": "default",
           "ttl": 900,
           "value": " dfg456sdfsdf sfg4df56g4df65g4",
@@ -327,7 +327,7 @@
         },
         "accesstoken": {
           "classeName": "token",
-          "classeType": "Resource",
+          "classeType": "resource",
           "classParent": "default",
           "ttl": 900,
           "value": " dfg456fqsdfdfg4df56g4df65g4",
@@ -335,25 +335,25 @@
         },
         "keyService": {
           "classeName": "keyUser",
-          "classeType": "Resource",
+          "classeType": "resource",
           "key": "dfg5 4dfg6sdfsd f54 dgf65g ",
           "secret": "fgdfgdsdfsdf fgdf5g46dfg4"
         },
         "historyAuditCreate": {
           "classeName": "auditCreate",
-          "classeType": "History",
+          "classeType": "history",
           "resource": {
             "id": 0,
             "name": "sf9540 df94f9s4dfs4",
             "keyUser": {
               "classeName": "keyUser",
-              "classeType": "Resource",
+              "classeType": "resource",
               "key": "dfg5 4dfg654 dgf65g ",
               "secret": "fgdfgdfgdf5g46dfg4"
             },
             "token": {
               "classeName": "token",
-              "classeType": "Resource",
+              "classeType": "resource",
               "classParent": "default",
               "ttl": 900,
               "value": " dfg456fg4df56g4df65g4",
@@ -361,7 +361,7 @@
             },
             "tokenAccess": {
               "classeName": "tokenAccess",
-              "classeType": "Resource",
+              "classeType": "resource",
               "classParent": "token",
               "ttl": 900,
               "value": "dfg6df4g65d4 6g54d6",
@@ -369,7 +369,7 @@
             },
             "login": {
               "classeName": "login",
-              "classeType": "Resource",
+              "classeType": "resource",
               "words": [
                 "Privacy",
                 "necessary",
@@ -396,11 +396,11 @@
     "to": [
       {
         "classeName": "account",
-        "classeType": "Resource",
+        "classeType": "resource",
         "classParent": "default",
         "token": {
           "classeName": "token",
-          "classeType": "Resource",
+          "classeType": "resource",
           "classParent": "default",
           "ttl": 900,
           "value": " dfg456sdfsdf sfg4df56g4df65g4",
@@ -408,7 +408,7 @@
         },
         "accesstoken": {
           "classeName": "token",
-          "classeType": "Resource",
+          "classeType": "resource",
           "classParent": "default",
           "ttl": 900,
           "value": " dfg456fqsdfdfg4df56g4df65g4",
@@ -416,25 +416,25 @@
         },
         "keyService": {
           "classeName": "keyUser",
-          "classeType": "Resource",
+          "classeType": "resource",
           "key": "dfg5 4dfg6sdfsd f54 dgf65g ",
           "secret": "fgdfgdsdfsdf fgdf5g46dfg4"
         },
         "historyAuditCreate": {
           "classeName": "auditCreate",
-          "classeType": "History",
+          "classeType": "history",
           "resource": {
             "id": 0,
             "name": "sf9540 df94f9s4dfs4",
             "keyUser": {
               "classeName": "keyUser",
-              "classeType": "Resource",
+              "classeType": "resource",
               "key": "dfg5 4dfg654 dgf65g ",
               "secret": "fgdfgdfgdf5g46dfg4"
             },
             "token": {
               "classeName": "token",
-              "classeType": "Resource",
+              "classeType": "resource",
               "classParent": "default",
               "ttl": 900,
               "value": " dfg456fg4df56g4df65g4",
@@ -442,7 +442,7 @@
             },
             "tokenAccess": {
               "classeName": "tokenAccess",
-              "classeType": "Resource",
+              "classeType": "resource",
               "classParent": "token",
               "ttl": 900,
               "value": "dfg6df4g65d4 6g54d6",
@@ -450,7 +450,7 @@
             },
             "login": {
               "classeName": "login",
-              "classeType": "Resource",
+              "classeType": "resource",
               "words": [
                 "Privacy",
                 "necessary",
@@ -480,7 +480,7 @@
         "refs": [
           {
             "classeName": "currency",
-            "classeType": "History",
+            "classeType": "history",
             "id": 0,
             "list": [
               {
@@ -16777,11 +16777,11 @@
         "context": {
           "account": {
             "classeName": "account",
-            "classeType": "Resource",
+            "classeType": "resource",
             "classParent": "default",
             "token": {
               "classeName": "token",
-              "classeType": "Resource",
+              "classeType": "resource",
               "classParent": "default",
               "ttl": 900,
               "value": " dfg456sdfsdf sfg4df56g4df65g4",
@@ -16789,7 +16789,7 @@
             },
             "accesstoken": {
               "classeName": "token",
-              "classeType": "Resource",
+              "classeType": "resource",
               "classParent": "default",
               "ttl": 900,
               "value": " dfg456fqsdfdfg4df56g4df65g4",
@@ -16797,25 +16797,25 @@
             },
             "keyService": {
               "classeName": "keyUser",
-              "classeType": "Resource",
+              "classeType": "resource",
               "key": "dfg5 4dfg6sdfsd f54 dgf65g ",
               "secret": "fgdfgdsdfsdf fgdf5g46dfg4"
             },
             "historyAuditCreate": {
               "classeName": "auditCreate",
-              "classeType": "History",
+              "classeType": "history",
               "resource": {
                 "id": 0,
                 "name": "sf9540 df94f9s4dfs4",
                 "keyUser": {
                   "classeName": "keyUser",
-                  "classeType": "Resource",
+                  "classeType": "resource",
                   "key": "dfg5 4dfg654 dgf65g ",
                   "secret": "fgdfgdfgdf5g46dfg4"
                 },
                 "token": {
                   "classeName": "token",
-                  "classeType": "Resource",
+                  "classeType": "resource",
                   "classParent": "default",
                   "ttl": 900,
                   "value": " dfg456fg4df56g4df65g4",
@@ -16823,7 +16823,7 @@
                 },
                 "tokenAccess": {
                   "classeName": "tokenAccess",
-                  "classeType": "Resource",
+                  "classeType": "resource",
                   "classParent": "token",
                   "ttl": 900,
                   "value": "dfg6df4g65d4 6g54d6",
@@ -16831,7 +16831,7 @@
                 },
                 "login": {
                   "classeName": "login",
-                  "classeType": "Resource",
+                  "classeType": "resource",
                   "words": [
                     "Privacy",
                     "necessary",
@@ -16856,60 +16856,60 @@
           },
           "historySaving": {
             "classeName": "saving",
-            "classeType": "History",
+            "classeType": "history",
             "list": [
               {
                 "classeName": "saving",
-                "classeType": "Resource",
+                "classeType": "resource",
                 "name": "sdf546s54df65s4df6",
                 "date": 1501435956,
                 "amount": {
                   "classeName": "amount",
-                  "classeType": "Resource",
+                  "classeType": "resource",
                   "amount": 0.57149351,
                   "currency": {
                     "classeName": "currency",
-                    "classeType": "Resource",
+                    "classeType": "resource",
                     "id": "ethereum"
                   }
                 },
                 "amountStart": {
                   "classeName": "amount",
-                  "classeType": "Resource",
+                  "classeType": "resource",
                   "name": "sdf546ssdf54df65s4df6",
                   "amount": 150.20,
                   "date": 1501060680,
                   "currency": {
                     "classeName": "currency",
-                    "classeType": "Resource",
+                    "classeType": "resource",
                     "id": "euro"
                   }
                 }
               },
               {
                 "classeName": "saving",
-                "classeType": "Resource",
+                "classeType": "resource",
                 "name": "sdf546s54dsfsff65s4df6",
                 "date": 1501435956,
                 "amount": {
                   "classeName": "amount",
-                  "classeType": "Resource",
+                  "classeType": "resource",
                   "amount": 0.65240093,
                   "currency": {
                     "classeName": "currency",
-                    "classeType": "Resource",
+                    "classeType": "resource",
                     "id": "zcash"
                   }
                 },
                 "amountStart": {
                   "classeName": "amount",
-                  "classeType": "Resource",
+                  "classeType": "resource",
                   "name": "sdf546ssdf54dfsdfsdf65s4df6",
                   "amount": 161.47,
                   "date": 1501060680,
                   "currency": {
                     "classeName": "currency",
-                    "classeType": "Resource",
+                    "classeType": "resource",
                     "id": "euro"
                   }
                 }
@@ -16922,7 +16922,7 @@
     "links": [
       {
         "classeName": "responseResultLink",
-        "classeType": "Resource",
+        "classeType": "resource",
         "id": 0,
         "rel": "",
         "desc": "",
@@ -16931,7 +16931,7 @@
         "param": [
           {
             "classeName": "param",
-            "classeType": "Resource",
+            "classeType": "resource",
             "key": "",
             "val": false
           }
