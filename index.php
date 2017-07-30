@@ -1,1 +1,1 @@
-<?phpclass HightFrecencyCryptoTrading {}
+<?phpclass HightFrecencyCryptoTrading {    CONST CONF = 'all.json';    public static $resources;    public static $histories;    public static $params;    public function __construct()    {        $datas = json_decode(file_get_contents(self::CONF));        self::$params = $datas->params;        self::$resources = $datas->resources;        self::$histories = $datas->histories;    }}HightFrecencyCryptoTrading();
