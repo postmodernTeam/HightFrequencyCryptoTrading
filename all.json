@@ -307,7 +307,7 @@
       "classParent": "default"
     }
   },
-  "Response": {
+  "response": {
     "classeName": "response",
     "classeType": "Resource",
     "classParent": false,
