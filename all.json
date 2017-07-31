@@ -16757,7 +16757,7 @@
               {
                 "id": "euro",
                 "name": "Euro",
-                "symbol": "EURO",
+                "symbol": "EUR",
                 "rank": false,
                 "price_usd": false,
                 "price_btc": false,
@@ -16879,7 +16879,7 @@
                   "currency": {
                     "classeName": "currency",
                     "classeType": "resource",
-                    "id": "euro"
+                    "id": "EUR"
                   }
                 }
               },
